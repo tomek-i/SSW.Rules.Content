@@ -1,7 +1,7 @@
 ---
-type: rule
 title: Do your payslips show Certification Rewards?
 uri: show-certification-award
+type: rule
 authors:
   - title: Stephan Fako
     url: https://www.ssw.com.au/people/stephan-fako/
