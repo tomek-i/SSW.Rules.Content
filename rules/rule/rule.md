@@ -22,4 +22,4 @@ archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
-< greybox content="**Cool link features:**- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users- Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)"/>
+<greybox content="**Cool link features:**- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users- Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)"/>
