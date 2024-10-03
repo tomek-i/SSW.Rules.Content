@@ -36,9 +36,9 @@ There are a few concepts that are applied to structure most SSW Rules:
 
 See a few examples of SSW Rules that follow the structure of good and bad examples, then link off to external documentation for more information:
 
-* [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
-* [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
-* [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
+- [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
+- [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
+- [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
 
 ### 1. Headings, paragraphs, and blockquotes
 
@@ -53,15 +53,12 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ###### This is a heading 6 and below is a blockquote
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->  - Someone famous in Source Title
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+>
+> - Someone famous in Source Title
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
-
-::: info
-Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
-:::
 
 ## This is a heading 2
 
@@ -91,9 +88,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> * Someone famous in Source Title
-
----
+> - Someone famous in Source Title
 
 ### 2. Text decorations
 
@@ -125,8 +120,6 @@ _You **can** combine them_
 
 <mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
 
----
-
 ### 3. Lists
 
 ```markdown
@@ -157,13 +150,13 @@ _You **can** combine them_
 
 #### Unordered lists
 
-* This is the first item of an unordered list
-* This is the second item of an unordered list
+- This is the first item of an unordered list
+- This is the second item of an unordered list
   1. This is the first item of an ordered list inside an unordered list
   2. This is the second item of an ordered list inside an unordered list
-* This is the third item of an unordered list
-  * This is the first item of an unordered list inside another
-  * This is the second item of an unordered list inside another
+- This is the third item of an unordered list
+  - This is the first item of an unordered list inside another
+  - This is the second item of an unordered list inside another
     1. This is the first item of an ordered list inside a nested unordered list
     2. This is the second item of an ordered list inside a nested unordered list
 
@@ -172,206 +165,59 @@ _You **can** combine them_
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
-   * This is the first item of an unordered list inside an ordered list
-   * This is the second item of an unordered list inside an ordered list
+   - This is the first item of an unordered list inside an ordered list
+   - This is the second item of an unordered list inside an ordered list
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
-
----
 
 ### 4. Links
 
 ```md
-[link text](https://www.url.com "link title")
+[link text](https://www.url.com 'link title')
 ```
 
 **Figure: Markdown to generate links**
 
 This is [an internal link](https://www.ssw.com.au).
 
-This is [an internal link with title](https://www.ssw.com.au "This is a link title") (hover me).
+This is [an internal link with title](https://www.ssw.com.au 'This is a link title') (hover me).
 
 This is [an external link](https://www.google.com).
 
 ::: greybox
 **Cool link features:**
 
-* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
-   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
+- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
+- Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
+  E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
 :::
-
----
 
 ### 5. Boxes
 
-```md
-::: greybox  
-This is a box using the class "greybox".  
-:::
-```
-
 **Figure: Markdown to generate boxes**
-
-::: greybox  
-This is a box using the class "greybox".  
-:::
-
-::: highlight  
-This is a box using the class "highlight".
-:::
-
-::: highlight  
-## This is an example of a heading in a highlight 
-:::
-
-::: info  
-This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
-:::
-
-::: info  
-## This is an example of a heading in a info 
-:::
-
-::: china  
-This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-:::
-
-::: china  
-## This is an example of a heading in a china 
-:::
-
-::: codeauditor
-This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-:::
-
-::: codeauditor  
-## This is an example of a heading in a codeauditor 
-:::
-
-::: todo  
-This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  
-:::
 
 #### Hiding content
 
 Use the class "hidden" to hide content.
 
-```md
-::: hidden  
-bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
-:::
-```
-
 **Figure: Nothing will show up from this Markdown**
-
----
 
 ### 6. Images
 
-```md
-::: img-small  
-![Figure: Caption text](image-file.jpg)
-:::
-```
-
-::: img-small  
-![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: img-medium  
-![Figure: Image using class "img-medium"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: img-large  
-![Figure: Image using class "img-large"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: no-border
-![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
-
-![Figure: ..and with a short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
-
-::: todo  
-TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
-:::
-
----
-
 ### 7. Captions
-
-```md
-::: bad  
-Figure: Caption for bad examples
-:::
-
-::: ok  
-Figure: Caption for OK examples
-:::
-
-::: good  
-Figure: Caption for good examples
-:::
-```
 
 #### Captions on images
 
-::: bad  
-![Figure: Caption for bad images](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
 ![Figure: Caption for regular images](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-
-::: ok  
-![Figure: Caption for OK images](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: good  
-![Figure: Caption for good images](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
-:::
 
 #### Captions on boxes
 
-::: greybox  
-This is an example of a bad grey box.  
-:::  
-::: bad  
-Figure: Caption for bad examples
-:::
-
-::: greybox  
-This is an example of a normal grey box.
-:::  
 **Figure: Caption for normal examples**
-
-::: greybox  
-This is an example of a OK grey box.
-:::  
-::: ok  
-Figure: Caption for ok examples  
-:::
-
-::: greybox  
-This is an example of a good grey box.
-:::  
-::: good  
-Figure: Caption for good examples  
-:::
-
----
 
 ### 8. Videos
 
 #### Code for videos
-
-```md
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
-**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
-```
 
 **Figure: Markdown to add videos and video captions**
 
@@ -381,8 +227,6 @@ Check out this video - it's responsive!
 
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 **Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
-
----
 
 ### 9. Twitter Cards Embed
 
@@ -394,8 +238,6 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 
----
-
 ### 10. Code
 
 To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
@@ -404,22 +246,14 @@ For syntax highlighting in code blocks, add the language name right after the op
 
 To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
-```md
-This is a piece of code in a code block
-```
-
-::: bad  
-Figure: Bad example - Because this code doesn't include the language used
-:::
-
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
 ```javascript
-let iceCream = "chocolate";
-if (iceCream === "chocolate") {
-  alert("Yay, I love chocolate ice cream!");
+let iceCream = 'chocolate';
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');
 } else {
-  alert("Awwww, but chocolate is my favorite...");
+  alert('Awwww, but chocolate is my favorite...');
 }
 ```
 
@@ -495,57 +329,17 @@ public class MyClass
 
 **Figure: JSON code block**
 
----
-
 ### 11. Email Templates
 
 #### Code for email template
-
-```md
-::: email-template  
-| | |
-| -------- | --- |
-| To: | XXX |
-| Cc: | YYY |
-| Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
-::: email-content
 
 ### Hi XXX,
 
 {{ EMAIL CONTENT }}
 
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-```
-
 **Figure: Markdown for email templates**
 
-::: email-template
-
-|          |                     |
-| -------- | ------------------- |
-| To:      | XXX                 |
-| Cc:      | YYY                 |
-| Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
-
-::: email-content
-
 ### Hi XXX
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-
----
 
 ### 12. Tables
 
@@ -569,21 +363,11 @@ Figure: Good example - Nice email template
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
+| Markdown | Less | Pretty |
+| -- | | - |
+| _Still_ | `renders` | **nicely** |
+| 1 | 2 | 3 |
 
 ### 13. Thematic breaks (horizontal rules)
 
 #### Code for hr
-
-```md
----
-```
-
-#### Examples
-
----
