@@ -265,6 +265,30 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 **Figure: Nothing will show up from this Markdown**
 
 ---
+
+### 6. Images
+
+```md
+::: img-small  
+:::
+```
+
+::: img-small  
+:::
+
+::: img-medium  
+:::
+
+::: img-large  
+:::
+
+::: no-border
+:::
+
+
+::: todo  
+:::
+
 ---
 
 ### 7. Captions
@@ -286,15 +310,12 @@ Figure: Caption for good examples
 #### Captions on images
 
 ::: bad  
-![Figure: Caption for bad images](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
-![Figure: Caption for regular images](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+
 
 ::: ok  
-![Figure: Caption for OK images](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
 ::: good  
-![Figure: Caption for good images](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
 :::
