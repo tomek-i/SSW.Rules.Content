@@ -24,6 +24,8 @@ guid: 55db32aa-0718-4868-995c-673d8dd69f62
 
 This is an example rule + Markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
 
+<!--endintro-->
+
 ## Concepts to write rules
 
 There are a few concepts that are applied to structure most SSW Rules:
@@ -117,6 +119,6 @@ _This will also be italic_
 **This text will be bold**  
 **This will also be bold**
 
-~strikethrough~
-
 _You **can** combine them_
+
+<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
