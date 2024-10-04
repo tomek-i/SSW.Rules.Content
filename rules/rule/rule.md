@@ -55,3 +55,38 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 > Someone famous in Source Title
 ```
 
+**Figure: Markdown to generate headings and blockquotes**
+
+::: info
+Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+:::
+
+## This is a heading 2
+
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+## This is a heading 2 with some **emphasized text** by making it bold
+
+**Tip:** See [text decoration section](#2-text-decorations) for more details on making the text bold.
+
+### This is a heading 3
+
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+#### This is a heading 4
+
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+##### This is a heading 5
+
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+###### This is a heading 6
+
+Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+...and this is a blockquote:
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+>
+> Someone famous in Source Title
