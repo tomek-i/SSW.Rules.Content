@@ -261,3 +261,324 @@ Use the class "hidden" to hide content.
 bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
 :::
 ```
+
+**Figure: Nothing will show up from this Markdown**
+
+---
+
+### 6. Images
+
+```md
+::: img-small  
+![Figure: Caption text](image-file.jpg)
+:::
+```
+
+::: img-small  
+![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+::: img-medium  
+![Figure: Image using class "img-medium"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+::: img-large  
+![Figure: Image using class "img-large"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+::: no-border
+![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+![Figure: ..and with a short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+::: todo  
+TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
+:::
+
+---
+
+### 7. Captions
+
+```md
+::: bad  
+Figure: Caption for bad examples
+:::
+
+::: ok  
+Figure: Caption for OK examples
+:::
+
+::: good  
+Figure: Caption for good examples
+:::
+```
+
+#### Captions on images
+
+::: bad  
+![Figure: Caption for bad images](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+![Figure: Caption for regular images](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+
+::: ok  
+![Figure: Caption for OK images](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+:::
+
+::: good  
+![Figure: Caption for good images](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
+:::
+
+#### Captions on boxes
+
+::: greybox  
+This is an example of a bad grey box.  
+:::  
+::: bad  
+Figure: Caption for bad examples
+:::
+
+::: greybox  
+This is an example of a normal grey box.
+:::  
+**Figure: Caption for normal examples**
+
+::: greybox  
+This is an example of a OK grey box.
+:::  
+::: ok  
+Figure: Caption for ok examples  
+:::
+
+::: greybox  
+This is an example of a good grey box.
+:::  
+::: good  
+Figure: Caption for good examples  
+:::
+
+---
+
+### 8. Videos
+
+#### Code for videos
+
+```md
+`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
+```
+
+**Figure: Markdown to add videos and video captions**
+
+#### Example
+
+Check out this video - it's responsive!
+
+`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
+
+---
+
+### 9. Twitter Cards Embed
+
+Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
+
+```md
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+```
+
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
+---
+
+### 10. Code
+
+To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
+
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
+
+To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
+
+```md
+This is a piece of code in a code block
+```
+
+::: bad  
+Figure: Bad example - Because this code doesn't include the language used
+:::
+
+See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
+
+```javascript
+let iceCream = "chocolate";
+if (iceCream === "chocolate") {
+  alert("Yay, I love chocolate ice cream!");
+} else {
+  alert("Awwww, but chocolate is my favorite...");
+}
+```
+
+**Figure: Javascript code block**
+
+```sql
+IF EXISTS (SELECT 1 FROM
+               INFORMATION_SCHEMA.TABLES
+           WHERE
+               TABLE_TYPE='BASE TABLE' AND
+               TABLE_NAME='Employees'
+           )
+    ALTER TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
+ELSE
+    CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
+```
+
+**Figure: SQL code block**
+
+```cs
+public class MyClass
+{
+    public string  myField = string.Empty;
+
+    public MyClass()
+    {
+    }
+
+    public void MyMethod(int parameter1, string parameter2)
+    {
+        Console.WriteLine("First Parameter {0}, second parameter {1}",
+                                                    parameter1, parameter2);
+    }
+
+    public int MyAutoImplementedProperty { get; set; }
+
+    private int myPropertyVar;
+
+    public int MyProperty
+    {
+        get { return myPropertyVar; }
+        set { myPropertyVar = value; }
+    }
+}
+```
+
+**Figure: C Sharp code block**
+
+```json
+{
+  "glossary": {
+    "title": "example glossary",
+    "GlossDiv": {
+      "title": "S",
+      "GlossList": {
+        "GlossEntry": {
+          "ID": "SGML",
+          "SortAs": "SGML",
+          "GlossTerm": "Standard Generalized Markup Language",
+          "Acronym": "SGML",
+          "Abbrev": "ISO 8879:1986",
+          "GlossDef": {
+            "para": "A meta-markup language, used to create markup languages such as DocBook.",
+            "GlossSeeAlso": ["GML", "XML"]
+          },
+          "GlossSee": "markup"
+        }
+      }
+    }
+  }
+}
+```
+
+**Figure: JSON code block**
+
+---
+
+### 11. Email Templates
+
+#### Code for email template
+
+```md
+::: email-template  
+| | |
+| -------- | --- |
+| To: | XXX |
+| Cc: | YYY |
+| Bcc: | ZZZ |
+| Subject: |  |  
+::: email-content
+
+### Hi XXX,
+
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
+```
+
+**Figure: Markdown for email templates**
+
+::: email-template
+
+|          |                     |
+| -------- | ------------------- |
+| To:      | XXX                 |
+| Cc:      | YYY                 |
+| Bcc:     | ZZZ                 |
+| Subject: | |
+
+::: email-content
+
+### Hi XXX
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
+
+---
+
+### 12. Tables
+
+#### Code for tables
+
+```md
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+```
+
+**Figure: Markdown to generate tables**
+
+#### Examples
+
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+---
+
+### 13. Thematic breaks (horizontal rules)
+
+#### Code for hr
+
+```md
+---
+```
+
+#### Examples
+
+---
