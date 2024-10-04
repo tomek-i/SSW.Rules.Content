@@ -508,12 +508,11 @@ public class MyClass
 | To: | XXX |
 | Cc: | YYY |
 | Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
+| Subject: |  |  
 ::: email-content
 
 ### Hi XXX,
 
-{{ EMAIL CONTENT }}
 
 :::  
 :::  
@@ -531,16 +530,57 @@ Figure: Good example - Nice email template
 | To:      | XXX                 |
 | Cc:      | YYY                 |
 | Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
+| Subject: | |
 
 ::: email-content
 
 ### Hi XXX
-
-{{ EMAIL CONTENT }}
 
 :::  
 :::  
 ::: good  
 Figure: Good example - Nice email template  
 :::
+
+---
+
+### 12. Tables
+
+#### Code for tables
+
+```md
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+```
+
+**Figure: Markdown to generate tables**
+
+#### Examples
+
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+---
+
+### 13. Thematic breaks (horizontal rules)
+
+#### Code for hr
+
+```md
+---
+```
+
+#### Examples
+
+---
