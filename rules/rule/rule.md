@@ -54,7 +54,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 ###### This is a heading 6 and below is a blockquote
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->  - Someone famous in Source Title
+> Someone famous in Source Title
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
@@ -91,7 +91,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> * Someone famous in Source Title
+> Someone famous in Source Title
 
 ---
 
