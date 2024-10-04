@@ -108,3 +108,15 @@ _You **can** combine them_
 
 <mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
 ```
+
+**Figure: Markdown to generate different text styles**
+
+_This text will be italic_  
+_This will also be italic_
+
+**This text will be bold**  
+**This will also be bold**
+
+~~strikethrough~~
+
+_You **can** combine them_
