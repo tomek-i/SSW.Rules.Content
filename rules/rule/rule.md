@@ -24,8 +24,6 @@ guid: 55db32aa-0718-4868-995c-673d8dd69f62
 
 This is an example rule + Markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
 
-<!--endintro-->
-
 ## Concepts to write rules
 
 There are a few concepts that are applied to structure most SSW Rules:
@@ -57,70 +55,3 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 > Someone famous in Source Title
 ```
 
-**Figure: Markdown to generate headings and blockquotes**
-
-::: info
-Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
-:::
-
-## This is a heading 2
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-## This is a heading 2 with some **emphasized text** by making it bold
-
-**Tip:** See [text decoration section](#2-text-decorations) for more details on making the text bold.
-
-### This is a heading 3
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-#### This is a heading 4
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-##### This is a heading 5
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-###### This is a heading 6
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-...and this is a blockquote:
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
->
-> Someone famous in Source Title
-
----
-
-### 2. Text decorations
-
-```markdown
-_This text will be italic_
-_This will also be italic_
-
-**This text will be bold**
-**This will also be bold**
-
-_You **can** combine them_
-
-~~strikethrough~~
-
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
-```
-
-**Figure: Markdown to generate different text styles**
-
-_This text will be italic_  
-_This will also be italic_
-
-**This text will be bold**  
-**This will also be bold**
-
-~~strikethrough~~
-
-_You **can** combine them_
-
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
