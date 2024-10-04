@@ -182,14 +182,14 @@ _You **can** combine them_
 ### 4. Links
 
 ```md
-[link text](https://www.url.com "link title")
+[link text](https://www.url.com)
 ```
 
 **Figure: Markdown to generate links**
 
 This is [an internal link](https://www.ssw.com.au).
 
-This is [an internal link with title](https://www.ssw.com.au "This is a link title") (hover me).
+This is [an internal link with title](https://www.ssw.com.au) (hover me).
 
 This is [an external link](https://www.google.com).
 
