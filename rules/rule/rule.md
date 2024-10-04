@@ -117,4 +117,6 @@ _This will also be italic_
 **This text will be bold**  
 **This will also be bold**
 
+~strikethrough~
+
 _You **can** combine them_
