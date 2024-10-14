@@ -16,7 +16,7 @@ For example, a page might have a category on a website, but when you look at it 
 
 Incorporating a prefix into webpage titles enhances clarity and immediately provides valuable context for users.
 
-<!--endintro-->
+{/*endintro*/}
 
 At a bare minimum, the context should be completely fleshed out in the title of a page. However, the gold standard is to use prefixes.
 

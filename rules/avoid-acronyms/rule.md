@@ -19,7 +19,7 @@ guid: 87950bac-d6fa-4c6b-8010-2bbca85ae5c9
 
 Acronyms are a common way to shorten words or phrases, but using niche terms can lead to confusion and misunderstandings. It's important to avoid jargon, especially for those new to a particular field or industry. To ensure clear communication, avoid unfamiliar acronyms where possible and use the full term instead.
 
-<!--endintro-->
+{/*endintro*/}
 
 1. Avoid niche acronyms to avoid confusion.
 2. Don't use acronyms in titles, headings, or other prominent places. This can make it hard for some readers to understand the content those headings describe.

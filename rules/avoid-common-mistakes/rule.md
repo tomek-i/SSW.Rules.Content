@@ -21,7 +21,7 @@ redirects:
 
 Attention to detail plays a vital role to effective communication. **Grammar**, **spelling**, and/or **syntax** mistakes, though seemingly minor, can significantly affect the clarity and professionalism of your writing.
 
-<!--endintro-->
+{/*endintro*/}
 
 ### Common language pitfalls
 
