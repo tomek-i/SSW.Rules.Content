@@ -508,12 +508,12 @@ public class MyClass
 | To: | XXX |
 | Cc: | YYY |
 | Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
+| Subject: | \{\{ EMAIL SUBJECT }} |  
 ::: email-content
 
 ### Hi XXX,
 
-{{ EMAIL CONTENT }}
+\{\{ EMAIL CONTENT }}
 
 :::  
 :::  
@@ -531,13 +531,13 @@ Figure: Good example - Nice email template
 | To:      | XXX                 |
 | Cc:      | YYY                 |
 | Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
+| Subject: | \{\{ EMAIL SUBJECT }} |
 
 ::: email-content
 
 ### Hi XXX
 
-{{ EMAIL CONTENT }}
+\{\{ EMAIL CONTENT }}
 
 :::  
 :::  
